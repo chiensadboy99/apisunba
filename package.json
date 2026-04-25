@@ -1,0 +1,21 @@
+{
+  "name": "sunsw-api",
+  "version": "1.0.0",
+  "description": "API theo dõi kết quả Tài Xỉu Sunwin qua WebSocket",
+  "main": "sunsw.js",
+  "scripts": {
+    "start": "node sunsw.js",
+    "dev": "nodemon sunsw.js"
+  },
+  "keywords": ["sunwin", "taixiu", "websocket", "api"],
+  "author": "@NguyenTung1920",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
